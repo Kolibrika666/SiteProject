@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <Container>
+    <Container className="d-flex flex-column min-vh-100">
       <Header/>
       <Home/>
       <Footer/>
