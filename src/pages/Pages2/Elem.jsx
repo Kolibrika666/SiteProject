@@ -12,7 +12,7 @@ const Elem = ({
 
   return (
     <div className="p-2 d-grid gap-3">
-      <Image src={src} />
+      <Image src={src} width={200}/>
       <Button
         style={{ height: "50px" }}
         onClick={() => setOpen(!open)}

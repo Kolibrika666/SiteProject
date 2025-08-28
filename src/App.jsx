@@ -7,15 +7,17 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Container className="d-flex flex-column min-vh-100">
+    <Container className="d-flex flex-column vh-100">
       <Header />
-      <BrowserRouter>
-      <Routes>
-        <Route path="*" element={<Home />} />
-        <Route path="home" element={<Home />} />
-        <Route path="page2" element={<Page2 />} />
-      </Routes>
-    </BrowserRouter>
+      <div className="overflow-auto">
+        <BrowserRouter>
+          <Routes>
+            <Route path="*" element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path="page2" element={<Page2 />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
       <Footer />
     </Container>
   );
