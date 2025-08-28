@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function Home() {
+function Page2() {
   return (
     <Card className="text-center">
       <Card.Header>Котики в костюмах пришли рассказать анекдоты!</Card.Header>
@@ -11,7 +11,7 @@ function Home() {
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgZBfNOioUQFCDQOjoTs_6YeVHfAVfhp0JtWCDnxUT29hoctsaU0Ddqvbkic0HBM2V0RQ&usqp=CAU"
       />
       <Card.Body>
-        <Card.Title>Анекдоты</Card.Title>
+        <Card.Title>Анекдоты2</Card.Title>
         <Card.Text>
           <p>
             Штирлицу за шиворот упала гусеница. "Где-то взорвался танк," --
@@ -39,4 +39,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Page2;
