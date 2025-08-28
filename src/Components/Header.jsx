@@ -20,7 +20,7 @@ const Header = ({ onChange }) => {
             navbarScroll
           >
             <Nav.Link href="home">Домашняя страница</Nav.Link>
-            <Nav.Link href="page2">Страница1</Nav.Link>
+            <Nav.Link href="page2">Страница2</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
